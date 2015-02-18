@@ -30,7 +30,7 @@ setInterval(function()
                 </div>
                 <div class="head-banner">
                     <div class="head-banner-block">
-                        <div class="head-banner-block-label"><span>Наshи партнеры</span></div>
+                        <div class="head-banner-block-label"><span>Наши партнеры</span></div>
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                             <!-- urags-top -->
                             <ins class="adsbygoogle"
@@ -56,7 +56,8 @@ setInterval(function()
                                         'category_name' => 'novosti'
                                         )); ?>
                                     <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
-                                        <div class="content-news-item"><h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
+                                        <div class="content-news-item">
+                                            <h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
                                             <div class="entry-meta">
                                                 <span class="entry-date">Дата публикации:
                                                     <a href="<?php the_permalink(); ?>" rel="bookmark">

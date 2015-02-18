@@ -49,7 +49,15 @@ setInterval(function()
                                         'category_name' => 'novosti'
                                         )); ?>
                                     <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
-                                        <div class="content-news-item"><h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
+                                        <div class="content-news-item">
+                                            <h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
+                                            <div class="entry-meta">
+                                                <span class="entry-date">Дата публикации:
+                                                    <a href="<?php the_permalink(); ?>" rel="bookmark">
+                                                        <time class="entry-date" datetime="<?php the_time('c'); ?>"><?php the_time('d.m.Y'); ?></time>
+                                                    </a>
+                                                </span>		
+                                            </div><!-- .entry-meta -->
                                         <?php the_content(__('[подробнее…]')); ?><hr /></div>
                                     <?php endwhile;?>
                                 </div>
@@ -59,7 +67,15 @@ setInterval(function()
                                         'category_name' => 'obyavleniya'
                                         )); ?>
                                     <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
-                                        <div class="content-alerts-item"><h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
+                                        <div class="content-alerts-item">
+                                            <h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>                                        
+                                            <div class="entry-meta">
+                                                <span class="entry-date">Дата публикации:
+                                                    <a href="<?php the_permalink(); ?>" rel="bookmark">
+                                                        <time class="entry-date" datetime="<?php the_time('c'); ?>"><?php the_time('d.m.Y'); ?></time>
+                                                    </a>
+                                                </span>		
+                                            </div><!-- .entry-meta -->
                                         <?php the_content(__('[подробнее…]')); ?><hr /></div>
                                     <?php endwhile;?>
                                 </div>
