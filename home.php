@@ -30,7 +30,7 @@ setInterval(function()
                 </div>
                 <div class="head-banner">
                     <div class="head-banner-block">
-                        <div class="head-banner-block-label"><span>Наши партнеры</span></div>
+                        <div class="head-banner-block-label"><span>Наshи партнеры</span></div>
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                             <!-- urags-top -->
                             <ins class="adsbygoogle"
