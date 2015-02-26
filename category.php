@@ -35,9 +35,15 @@ setInterval(function()
                 <div class="head-banner">
                     <div class="head-banner-block">
                         <div class="head-banner-block-label"><span>Наши партнеры</span></div>
-                        <a href="http://firstvds.ru/?from=383561" target="_blank">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/firstvds-440.gif" alt="FirstVDS - лучший провайдер виртуальных виделенных серверов!" width="425">
-                        </a>
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                            <!-- urags-top -->
+                            <ins class="adsbygoogle"
+                                 style="display:inline-block;width:425px;height:170px"
+                                 data-ad-client="ca-pub-0920512869330029"
+                                 data-ad-slot="7217315374"></ins>
+                            <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
                     </div>
                 </div>
             </div> 
