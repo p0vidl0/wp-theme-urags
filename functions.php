@@ -77,3 +77,4 @@ function twentyfourteen_widgets_init() {
 add_action( 'widgets_init', 'twentyfourteen_widgets_init' );
 remove_action( 'wp_head', 'wp_shortlink_wp_head', 10, 0 );
 remove_action( 'template_redirect', 'wp_shortlink_header', 11 );
+function genesis() {}
